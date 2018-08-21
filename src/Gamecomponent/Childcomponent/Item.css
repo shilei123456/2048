@@ -46,16 +46,19 @@
 }
 @media screen and (max-width: 415px) {
     .col2 Button{
+        width: 120px;
+        height: 30px;
      margin-top: 6px;
+     float: left;
     }
     .col3{
-    text-align: center;
-    margin-left: -15px;
-    margin-top: -30px;
+    display: none;
     }
     .col4 Button{
+         width: 80px;
+        height: 25px;
     float: right;
     margin-right: 35px;
-    margin-top: 5px;
+    margin-top: -26px;
     }
 }

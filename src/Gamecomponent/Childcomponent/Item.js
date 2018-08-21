@@ -44,7 +44,8 @@ export default class Item extends Component{
             <div>
                   <Row>
                     <Col className="col1" span={12}><strong>2048</strong></Col>
-                    <Col className="col2" span={12}><Button>Scores<p>{GameMessage.ScoreData}</p></Button><Button>Best Score<p className={this.getStyle()}>{GameMessage.BestScore}</p></Button></Col>
+                    <Col className="col2" span={12}><Button>Scores<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{GameMessage.ScoreData}</span>
+                    </Button><Button>Best Score<span className={this.getStyle()}>&nbsp;&nbsp;&nbsp;{GameMessage.BestScore}</span></Button></Col>
                   </Row>
                   <Row>
                     <Col className="col3" span={12}>Keypressing '▲ ▼ ◀ ▶'<br/> on PC. Touch moving on Phone!<br/> Join it & have fun!</Col>

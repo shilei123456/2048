@@ -69,7 +69,7 @@
       height: 823px;
   }
   .main1{
-      margin-top: 23px;
+      margin-top: -2px;
   }
 }
 @media screen and (height:812px) {
@@ -77,7 +77,7 @@
       height: 812px;
   }
   .main1{
-      margin-top: 23px;
+      margin-top: -3px;
   }
 }
 @media screen and (width:414px) {
