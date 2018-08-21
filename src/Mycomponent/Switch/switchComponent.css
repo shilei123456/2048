@@ -1,0 +1,35 @@
+.actionsheetCtn{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 65px;
+    height: 30px;
+    border-radius: 15px;
+    background: black;
+}
+.actionsheetCtn1{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 65px;
+    height: 30px;
+    border-radius: 15px;
+    background: lightblue;
+}
+.mask{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+    background:yellow;
+    transform: translateX(0);
+}
+.showMask{
+    transform: translateX(0);
+}
+.hideMask{
+    transform: translateX(35px);
+    opacity: 0.5
+}

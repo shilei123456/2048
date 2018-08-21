@@ -1,0 +1,41 @@
+.content{
+    width: 500px;
+    height: 500px;
+    background: gray;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 415px) {
+    .content{ 
+        width: 350px;
+        height: 350px;
+        margin: 0 auto;
+        margin-top: 5px;
+     }
+}
+@media screen and (width:411px) {
+  .content{
+     margin-top: 26px;
+  }
+}
+@media screen and (width:411px) {
+  .content{
+     margin-top: 40px;
+  }
+}
+@media screen and (width:414px) {
+  .content{
+     margin-top: 26px;
+  }
+}
+@media screen and (width:768px) {
+  .content{
+     margin-top: 50px;
+  }
+}
+@media screen and (height:812px) {
+  .content{
+     margin-top: 35px;
+  }
+}

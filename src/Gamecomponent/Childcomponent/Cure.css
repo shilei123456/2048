@@ -1,0 +1,35 @@
+.cure{
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    color: goldenrod;
+    background: goldenrod;
+    border-radius: 10px;
+    transition:background .4s ease-in;
+}
+.text0{
+     text-align: center;
+    line-height: 100px;
+    font-size: 24px;
+}
+.text{
+    text-align: center;
+    line-height: 100px;
+    font-size: 24px;
+    text-shadow: 5px 5px 5px #FF0000;
+}
+@media screen and (max-width: 415px) {
+    .cure{ 
+     width: 62px;
+     height: 62px;
+     float: left;
+     }
+    .text{
+    text-align: center;
+    line-height: 63px;
+    font-size: 24px;
+    transform: rotateX(0);
+}
+}

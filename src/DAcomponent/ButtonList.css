@@ -1,0 +1,23 @@
+.Button-left{
+    float: left;
+}
+.Button-left  Button{
+    margin-left: 10px;
+}
+.Button-left Button:nth-child(2){
+    background: gray;
+}
+.Button-right{
+    float: right;
+}
+.drop{
+    float: left;
+   padding-right: 5px;
+    border: 1px solid lightblue;
+    border-radius: 3px;
+    height: 32px;
+}
+.search{
+    float: right;
+    width: 200px;
+}

@@ -1,0 +1,11 @@
+.row{
+    height: 50px;
+    border: 1px solid gray;
+    margin-top: 15px;
+    overflow: hidden;
+    background: white;
+}
+.row .col{
+   padding: 13px 15px;
+  
+}

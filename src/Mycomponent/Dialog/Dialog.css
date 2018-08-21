@@ -1,0 +1,54 @@
+.mask{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background:grey;
+    transition: opacity .3s ease-in;
+}
+.showMask{
+    opacity: 1;
+    transform: translateY(0);
+}
+.hideMask{
+    opacity: 0;
+    transform: translateY(100%);
+}
+.menu{
+    position: absolute;
+    width: 80%;
+    margin-left: 35px;
+    top: 30%;
+    left: 0;
+    right: 0;
+    background: white;
+    text-align: center;
+    color: #000;
+    font-size: 17px;
+    transition: transform .3s ease;
+    transform: translateY(500px);
+}
+.showMenu{
+    transform: translateY(0);
+}
+
+.title{
+    padding: 20px 10px;
+    background: #fff;
+    text-align: center;
+    font-size: 19px;
+}
+.menu-content{
+    width: 87%;
+    margin-left: 20px;
+    color: gray;
+}
+.btn{
+    background: #fff;
+    text-align: center;
+    padding: 12px 10px;
+}
+.zhu{
+   color: orange;
+}

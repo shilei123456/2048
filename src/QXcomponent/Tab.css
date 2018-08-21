@@ -1,0 +1,35 @@
+.Tabrow{
+    height: 50px;
+    border: 1px solid gray;
+    overflow: hidden;
+    margin-top: 35px;
+    border-bottom: none;
+    background: white;
+}
+.Tabrow1{
+    height: auto;
+    border: 1px solid gray;
+    background: white;
+}
+.Tabrow .col{
+   padding: 13px 15px;
+  
+}
+.Tabrow1 .col{
+   padding: 13px 15px;
+}
+.seach{
+    width: 80%;
+    float: right;
+    margin-top: -33px;
+}
+.Row-btn{
+    float: right;
+    margin-top: 10px;
+}
+.guanbi{
+    width: 30px;
+    height: 25px;
+    float:right;
+    margin-right: 50px;
+}

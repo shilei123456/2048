@@ -1,0 +1,18 @@
+.tab{
+    float: left;
+    margin-top: 20px;
+    width: 100%;
+}
+.tanle-top h4{
+    float: left;
+    margin-left: 11px;
+}
+td{
+    border: 1px solid lightblue;
+}
+th{
+    background: gray
+}
+.ant-table-thead>tr>th{
+     background: gray
+}

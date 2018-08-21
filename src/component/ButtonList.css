@@ -1,0 +1,14 @@
+.main{
+    float: left;
+    margin-top: -32px;
+}
+.Button-left{
+    float: left;
+}
+.Button-left Button:nth-child(2){
+    background: gray;
+}
+.mainR{
+    margin-top: -32px;
+    float: right;
+}

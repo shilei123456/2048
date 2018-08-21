@@ -1,0 +1,52 @@
+{
+     "style": {
+        "0": {
+            "background": "#ccc0b3",
+            "color": "#ccc0b3"
+        },
+        "2": {
+            "background": "red",
+            "color": "white"
+        },
+        "4": {
+            "background": "yellow",
+            "color": "red"
+        },
+        "8": {
+            "background": "blue",
+            "color": "white"
+        },
+        "16": {
+            "background": "orange",
+            "color": "white"
+        },
+        "32": {
+            "background": "black",
+            "color": "white"
+        },
+        "64": {
+            "background": "#f65e3b",
+            "color": "white"
+        },
+        "128": {
+            "background": "green",
+            "color": "white"
+        },
+        "256": {
+            "background": "#edcc61",
+            "color": "white"
+        },
+        "512": {
+            "background": "#9c0",
+            "color": "white"
+        },
+        "1024": {
+            "background": "#33b5e5",
+            "color": "white"
+        },
+        "2048": {
+            "background": "#09c",
+            "color": "white"
+        }
+    }
+}

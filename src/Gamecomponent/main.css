@@ -1,0 +1,92 @@
+.main{
+    width: 60%;
+    margin: 0 auto;
+}
+.maxbg{
+  background: url(../source/12.jpg) no-repeat center center fixed;
+  background-size: cover;
+  height: auto;
+}
+.upBtn{
+    float: left;
+    margin: -5px 0 0 0;
+    border-radius: 10px;
+}
+.leftBtn{
+    float: left;
+    margin: 17px 0 0 -130px;
+    border-radius: 10px;
+}
+.rightBtn{
+    position: absolute;
+    float: left;
+    margin: 17px 0 0 2px;
+    border-radius: 10px;
+}
+.downBtn{
+    float: left;
+    margin: 37px 0 0 0;
+    border-radius: 10px;
+}
+@media screen and (min-width: 770px) {
+    .fangxiang{
+     display: none
+    }
+}
+@media screen and (max-width: 769px) {
+     .main{ 
+     width: 100%;
+     height: auto;
+     }
+     .main1{
+         width: 16%;
+         height: auto;
+         margin: 0 auto;
+         padding-top: 15px;
+     }
+    .fangxiang{
+        margin: 0 auto;
+        width: 100%;
+        height: 140px;
+    }
+    .fangxiang Button{
+        width: 65px;
+        height: 35px
+    }
+}
+@media screen and (height:640px) {
+ .maxbg{
+      height: 640px;
+  }
+}
+@media screen and (height:731px) {
+  .maxbg{
+      height: 731px;
+  }
+}
+@media screen and (height:823px) {
+  .maxbg{
+      height: 823px;
+  }
+  .main1{
+      margin-top: 23px;
+  }
+}
+@media screen and (height:812px) {
+  .maxbg{
+      height: 812px;
+  }
+  .main1{
+      margin-top: 23px;
+  }
+}
+@media screen and (width:414px) {
+  .maxbg{
+      height: 735px;
+  }
+}
+@media screen and (width:768px) {
+  .maxbg{
+      height: 1024px;
+  }
+}

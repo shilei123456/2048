@@ -1,0 +1,31 @@
+.di{
+    width: 300px;
+    height: 5px;
+    overflow: hidden;
+    background: lightblue
+}
+
+.di span{
+    display: inline-block;
+    width: 50%;
+    height: 30px;       
+    background: yellow;    
+    animation:load 3s ease-in;
+}
+@keyframes load{
+    0%{
+        width: 0%;
+    }
+    15%{
+         width: 15%;
+    }
+    30%{
+        width: 30%;
+    }
+    45%{
+        width: 45%;
+    }
+    50%{
+        width:50%;
+    }
+}

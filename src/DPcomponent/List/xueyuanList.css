@@ -1,0 +1,17 @@
+.bottom-wrap{
+   width: 1000px;
+   border:1px solid #ccc;
+   overflow: hidden;
+}
+.left{
+    width:60%;
+    float: left;
+    margin-bottom:30px;
+}
+.left ul li{
+    border:1px solid #ccc;
+}
+.right{
+    width: 40%;
+    float: right;
+} 
