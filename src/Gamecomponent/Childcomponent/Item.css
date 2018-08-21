@@ -25,11 +25,16 @@
     margin-left: 520px;
     margin-top: -52px;
 }
+.style0{
+     color: black;
+    display: inline;
+}
 .style1{
     color: black;
+    display: inline;
     animation: donghua 1s ease-in;
-    
 }
+
 @keyframes donghua{
     0%{
         color:black; 
@@ -46,19 +51,19 @@
 }
 @media screen and (max-width: 415px) {
     .col2 Button{
-        width: 120px;
+        width: 135px;
         height: 30px;
-     margin-top: 6px;
-     float: left;
+        margin-top: 6px;
+        float: left;
     }
     .col3{
-    display: none;
+        display: none;
     }
     .col4 Button{
-         width: 80px;
+        width: 80px;
         height: 25px;
-    float: right;
-    margin-right: 35px;
-    margin-top: -26px;
-    }
+        float: right;
+        margin-right: 35px;
+        margin-top: -26px;
+        }
 }

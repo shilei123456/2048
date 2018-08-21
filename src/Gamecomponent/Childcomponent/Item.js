@@ -30,9 +30,11 @@ export default class Item extends Component{
           const { GameMessage } = this.props
             if(GameMessage.BestScore !== 0 && GameMessage.BestScore-this.state.x !== 0){
                 if(this.state.shouldAnimateDisappear) {
-                    return null
+                    return "style0"
                 }
                     return "style1"
+            }else{
+                    return "style0"
             }
         }
     render(){   
@@ -45,7 +47,7 @@ export default class Item extends Component{
                   <Row>
                     <Col className="col1" span={12}><strong>2048</strong></Col>
                     <Col className="col2" span={12}><Button>Scores<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{GameMessage.ScoreData}</span>
-                    </Button><Button>Best Score<span className={this.getStyle()}>&nbsp;&nbsp;&nbsp;{GameMessage.BestScore}</span></Button></Col>
+                    </Button><Button className="btn">Best Score<p className={this.getStyle()}>&nbsp;&nbsp;&nbsp;{GameMessage.BestScore}</p></Button></Col>
                   </Row>
                   <Row>
                     <Col className="col3" span={12}>Keypressing '▲ ▼ ◀ ▶'<br/> on PC. Touch moving on Phone!<br/> Join it & have fun!</Col>
